@@ -1,0 +1,162 @@
+body p span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+/******** client section  css  **********/
+.client-text h5{
+    color:#81a7f6 ;
+    margin-bottom: 10px;
+}
+.client-text h1{
+    color:#111 ;
+    position: relative;
+}
+.client-text h1::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	left: 0;
+	top: 140px;
+	background: #81a7f6;
+}
+.client-text p{
+    color:#f2d1b9;
+    margin-top: 20px;
+
+}
+.goutam {
+	padding-left: 0;
+	padding-right: 0;
+}
+.goutam:hover{
+    background:#f6f9fc ;
+}
+.goutam img {
+	border: 1px solid #f0f0f0;
+	height: 120px;
+	width: 200px;
+}
+
+/******  Blog section ******/
+.blog-text h5{
+    color:#81a7f6 ;
+
+}
+.blog-text h1{
+position: relative;
+}
+.blog-text h1::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	left: 40%;
+	top: 50px;
+	background: #81a7f6;
+}
+.blog-text p {
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+    color:#f2d1b9;
+  
+}
+/* blog 2 */
+.blog-image{
+position: relative;
+}
+.blog-image img{
+max-width: 100%;
+}
+.button {
+    position: absolute;
+    top: 138px;
+    right: 20px;
+  }
+.button a {
+	text-decoration: none;
+	display: inline-block;
+	width: 160px;
+	border-radius: 25px;
+	font-size: 15px;
+	position: relative;
+	margin-right: -6px;
+}
+.button a img {
+	width: 25px;
+	height: auto;
+	border-radius: 50%;
+	margin-left: -14px;
+	position: absolute;
+}
+.button a span {
+	margin-left: 15px;
+}
+
+.blog-content h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-content p{
+      color:#f2d1b9;
+    
+}
+
+/******* footer css *****/
+.footer{
+    background: #111;
+    color: #fff;
+}
+.footer-widget img{
+margin-bottom: 15px;
+}
+.footer-widget{
+    margin-top: 15px;
+}
+.footer-widget ul {
+padding-left: 0;
+}
+.footer-widget ul li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-widget ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.footer-widget h3{
+    border-left: 5px solid #81a7f6 ;
+    padding: 5px;
+}
+.footer-top{
+    border-bottom: 1px solid #fff;
+    
+    margin: auto;
+}
+.footer-bottom p{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.footer-bottom p a{
+text-decoration: none;
+color: #81a7f6;
+}
+
+
+
+
+
+
